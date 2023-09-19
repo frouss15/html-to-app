@@ -24,3 +24,4 @@ document.querySelector("#sous-titre").after(h3);
 setInterval(() => {
     document.querySelector("h3").innerText = new Date().toLocaleTimeString();
 }, 1000);
+
